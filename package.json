@@ -3,7 +3,6 @@
   "displayName": "Productivity Extensions",
   "description": "A set of extensions made for productivity enhancement.",
   "version": "0.0.3",
-  "preview": false,
   "publisher": "ry444nnn",
   "repository": {
     "type": "git",
