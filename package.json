@@ -1,62 +1,50 @@
 {
   "name": "ryan-productivity",
   "displayName": "Productivity Extensions",
-  "description": "A set of extensions made for productivity enhancement, aswell as documented extensions",
-  "version": "0.0.1",
-  "preview": true,
-  "icon": "icon.png",
-  "engines": {
-    "vscode": "^1.104.0"
-  },
+  "description": "A set of extensions made for productivity enhancement.",
+  "version": "0.0.3",
+  "preview": false,
+  "publisher": "ry444nnn",
   "repository": {
     "type": "git",
     "url": "https://github.com/k1nxx/ryan-productivity.git"
   },
-  "publisher": "ry444nnn",
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#f66f62",
+    "theme": "dark"
+  },
   "categories": [
     "Extension Packs"
   ],
+  "keywords": [
+    "productivity",
+    "enhancement",
+    "10xdev",
+    "git",
+    "snippets"
+  ],
   "extensionPack": [
     "aaron-bond.better-comments",
-    "alefragnani.bookmarks",
-    "albert.tabout",
-    "bierner.markdown-checkbox",
-    "bierner.markdown-emoji",
-    "bierner.markdown-footnotes",
-    "bierner.markdown-mermaid",
-    "bierner.markdown-preview-github-styles",
-    "bierner.markdown-yaml-preamble",
-    "cardinal90.multi-cursor-case-preserve",
-    "chakrounanas.turbo-console-log",
-    "christian-kohler.npm-intellisense",
-    "christian-kohler.path-intellisense",
-    "coddictco.productivity-plus",
-    "davidanson.vscode-markdownlint",
+    "usernamehw.errorlens",
+    "alefragnani.Bookmarks",
+    "streetsidesoftware.code-spell-checker",
     "donjayamanne.githistory",
     "eamodio.gitlens",
-    "editorconfig.editorconfig",
-    "esbenp.prettier-vscode",
-    "gruntfuggly.todo-tree",
-    "ibm.output-colorizer",
-    "jenkey2011.string-highlight",
-    "jkjustjoshing.vscode-text-pastry",
-    "maptz.camelcasenavigation",
-    "mikestead.dotenv",
-    "mrmlnc.vscode-duplicate",
+    "GitHub.copilot",
+    "VisualStudioExptTeam.vscodeintellicode",
     "oderwat.indent-rainbow",
-    "shardulm94.trailing-spaces",
-    "streetsidesoftware.code-spell-checker",
-    "tombonnike.vscode-status-bar-format-toggle",
-    "vscode-icons-team.vscode-icons",
-    "wallabyjs.console-ninja",
-    "wallabyjs.quokka-vscode",
-    "wallabyjs.wallaby-vscode",
-    "wmaurer.change-case",
-    "ybaumes.highlight-trailing-white-spaces",
-    "wayou.vscode-todo-highlight",
-    "visualstudioexptteam.intellicode-api-usage-examples",
-    "visualstudioexptteam.vscodeintellicode",
-    "redhat.vscode-commons",
-    "firefox-devtools.vscode-firefox-debug"
+    "MS-vsliveshare.vsliveshare",
+    "esbenp.prettier-vscode",
+    "alefragnani.project-manager",
+    "SonarSource.sonarlint-vscode",
+    "hbenl.vscode-test-explorer",
+    "formulahendry.code-runner",
+    "ritwickdey.LiveServer",
+    "ms-vscode-remote.remote-ssh",
+    "Gruntfuggly.todo-tree"
   ]
 }
